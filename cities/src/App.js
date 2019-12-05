@@ -7,8 +7,10 @@ const API_KEY = "90b7882bfe55431d2435e59c125818a4"
 
 class App extends React.Component {
 
-  gettingWeather = async () => {
-    const api_url = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=${API_KEY}`);
+  gettingWeather = async (e) => {
+    e.preventDefault();
+    const city = e.target.elements.city.value;
+    const api_url = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${API_KEY}`);
     const data = await api_url.json();
     console.log(data);
     
@@ -19,7 +21,7 @@ class App extends React.Component {
     return (
       <div>
        <Info/>
-       <Form/>
+       <Form weatherMethod={this.gettingWeather}/>
        <Weather/>
       </div>
     )
