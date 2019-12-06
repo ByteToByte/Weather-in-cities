@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Weather-in-cities/static/css/main.67fe87b2.chunk.css",
+    "main.js": "/Weather-in-cities/static/js/main.db16195a.chunk.js",
+    "main.js.map": "/Weather-in-cities/static/js/main.db16195a.chunk.js.map",
+    "runtime-main.js": "/Weather-in-cities/static/js/runtime-main.957d8533.js",
+    "runtime-main.js.map": "/Weather-in-cities/static/js/runtime-main.957d8533.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/Weather-in-cities/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.f57e8e6d.chunk.js": "/Weather-in-cities/static/js/2.f57e8e6d.chunk.js",
+    "static/js/2.f57e8e6d.chunk.js.map": "/Weather-in-cities/static/js/2.f57e8e6d.chunk.js.map",
+    "index.html": "/Weather-in-cities/index.html",
+    "precache-manifest.7003bebe59ceb0619dd66725540b1d28.js": "/Weather-in-cities/precache-manifest.7003bebe59ceb0619dd66725540b1d28.js",
+    "service-worker.js": "/Weather-in-cities/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/Weather-in-cities/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.67fe87b2.chunk.css.map": "/Weather-in-cities/static/css/main.67fe87b2.chunk.css.map",
+    "static/js/2.f57e8e6d.chunk.js.LICENSE": "/Weather-in-cities/static/js/2.f57e8e6d.chunk.js.LICENSE",
+    "static/media/App.css": "/Weather-in-cities/static/media/polygon.771ddf39.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.957d8533.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.f57e8e6d.chunk.js",
+    "static/css/main.67fe87b2.chunk.css",
+    "static/js/main.db16195a.chunk.js"
+  ]
+}
